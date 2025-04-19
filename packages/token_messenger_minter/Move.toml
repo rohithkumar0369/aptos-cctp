@@ -23,12 +23,18 @@ rev = "mainnet"
 subdir = "aptos-move/framework/aptos-framework"
 
 [dependencies.AptosExtensions]
-local = "../../stablecoin-aptos/packages/aptos_extensions"
+git = "https://github.com/circlefin/aptos-cctp.git"
+subdir = "packages/stablecoin-aptos/packages/aptos_extensions"
+rev = "master"
 
 [dependencies.MessageTransmitter]
-local = "../message_transmitter"
+git = "https://github.com/circlefin/aptos-cctp.git"
+subdir = "packages/message_transmitter"
+rev = "master"
 
 [dependencies.Stablecoin]
-local = "../../stablecoin-aptos/packages/stablecoin"
+git = "https://github.com/circlefin/aptos-cctp.git"
+subdir = "packages/stablecoin-aptos/packages/stablecoin"
+rev = "master"
 
 [dev-dependencies]
