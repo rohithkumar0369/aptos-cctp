@@ -19,6 +19,8 @@ rev = "mainnet"
 subdir = "aptos-move/framework/aptos-framework"
 
 [dependencies.AptosExtensions]
-local = "../../stablecoin-aptos/packages/aptos_extensions"
+git = "https://github.com/circlefin/stablecoin-aptos.git"
+subdir = "packages/aptos_extensions"
+rev = "master"
 
 [dev-dependencies]
