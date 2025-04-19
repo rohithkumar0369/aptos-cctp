@@ -19,7 +19,7 @@ rev = "mainnet"
 subdir = "aptos-move/framework/aptos-framework"
 
 [dependencies.AptosExtensions]
-git = "https://github.com/circlefin/stablecoin-aptos.git"
+git = "https://github.com/rohithkumar0369/stablecoin-aptos.git"
 subdir = "packages/aptos_extensions"
 rev = "master"
 
