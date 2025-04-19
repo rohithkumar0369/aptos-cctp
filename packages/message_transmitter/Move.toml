@@ -22,5 +22,4 @@ subdir = "aptos-move/framework/aptos-framework"
 git = "https://github.com/rohithkumar0369/stablecoin-aptos.git"
 subdir = "packages/aptos_extensions"
 rev = "master"
-
 [dev-dependencies]
