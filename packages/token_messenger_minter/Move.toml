@@ -26,15 +26,18 @@ subdir = "aptos-move/framework/aptos-framework"
 git = "https://github.com/rohithkumar0369/stablecoin-aptos.git"
 subdir = "packages/aptos_extensions"
 rev = "master"
+addr_subst = { "cctp_deployer" = "deployer" }
 
 [dependencies.MessageTransmitter]
 git = "https://github.com/rohithkumar0369/aptos-cctp.git"
 subdir = "packages/message_transmitter"
 rev = "master"
+addr_subst = { "cctp_deployer" = "deployer" }
 
 [dependencies.Stablecoin]
 git = "https://github.com/rohithkumar0369/stablecoin-aptos.git"
 subdir = "packages/stablecoin"
 rev = "master"
+addr_subst = { "cctp_deployer" = "deployer" }
 
 [dev-dependencies]
